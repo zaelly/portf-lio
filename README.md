@@ -15,8 +15,7 @@ Olá, sou Zaelly Barbosa, uma desenvolvedora web apaixonada por criar soluções
 ### 📱 Aplicativo de E-commerce
 - **Descrição**: Um aplicativo de e-commerce com React e Node.js, permitindo que os usuários comprem produtos, rastreiem pedidos e realizem pagamentos.
 - **Tecnologias**: Node.js, Empress e Node.js
-- **Link para o código**: [GitHub - E-commerce App](https://github.com/seunome/ecommerce-app)
-- **Link para a aplicação**: [Visualizar Aplicação](https://seu-portifolio.com/ecommerce)
+- **Link para o código**: [GitHub - E-commerce Brechó](https://github.com/zaelly/brecho)
 
 ## 📚 Educação e Certificados
 - **Graduação em Análise e Desenvolvimento de Sistemas** - Universidade Uniasselvi (2024)
