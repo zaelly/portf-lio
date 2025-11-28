@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Saira:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+.app {
+  background: radial-gradient(circle at center,rgb(53, 0, 78), #200035, #0a0011);
+  background-color: black;
+  background-size: 300% 300%;
+  background-position: 0% 50%;
+  animation: circularMove 8s ease-in-out infinite;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.font-Saira {
+  font-family: 'Saira', "Playwrite CU", "Stack Sans Notch", sans-serif;
+}
+
+#skills{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 15rem;
+  border-top-width: 1px;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes circularMove {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 50% 100%; }
+  50%  { background-position: 100% 50%; }
+  75%  { background-position: 50% 0%; }
+  100% { background-position: 0% 50%; }
+}
