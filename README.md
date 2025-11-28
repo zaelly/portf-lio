@@ -1,16 +1,33 @@
-# React + Vite
+# Meu Portfólio - [Zaelly Barbosa]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Sobre Mim
+Olá, sou Zaelly Barbosa, uma desenvolvedora web apaixonada por criar soluções eficientes e inovadoras. Tenho experiência em desenvolvimento front-end, utilizando tecnologias como HTML, CSS, JavaScript, React, Tailwind, entre outras. Meu objetivo é criar produtos digitais de alta qualidade que atendam às necessidades dos usuários e clientes.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias e Ferramentas
+- **Front-end**: HTML, CSS, JavaScript, React
+- **Back-end**: PHP, Node.js
+- **Banco de Dados**: MySQL, MongoDB
+- **Ferramentas**: Git, Docker, Composer, npm
+- **Outras**: GitHub, Figma, Docker
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Projetos
 
-## React Compiler
+### 📱 Aplicativo de E-commerce
+- **Descrição**: Um aplicativo de e-commerce com React e Node.js, permitindo que os usuários comprem produtos, rastreiem pedidos e realizem pagamentos.
+- **Tecnologias**: Node.js, Empress e Node.js
+- **Link para o código**: [GitHub - E-commerce Brechó](https://github.com/zaelly/brecho)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📚 Educação e Certificados
+- **Graduação em Análise e Desenvolvimento de Sistemas** - Universidade Uniasselvi (2024)
+- **Certificação Formação Front-end** - [Plataforma de Certificação Udemy]([https://www.exemplo.com](https://udemy-certificate.s3.amazonaws.com/image/UC-ff624830-3b53-4a4b-a352-03b33d3bff96.jpg)) (2024)
 
-## Expanding the ESLint configuration
+## 💼 Experiência Profissional
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Estágio de Desenvolvimento** na Empresa Evictus Suprimento e Informática (2024- atual)
+    - Contribuí para o desenvolvimento de um sistema de gerenciamento de estoque, aumentando a eficiência em 10%.
+    - Trabalhei em equipe para criar um dashboard usando PHP e HTML e CSS.
+
+## 📩 Contato
+- **E-mail**: zaellybarbosa@gmail.com
+- **LinkedIn**: [Zaelly Barbosa](https://www.linkedin.com/in/zaellybarbosa/)
+- **GitHub**: [Zaelly no GitHub](https://github.com/zaelly)
