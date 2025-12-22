@@ -13,12 +13,13 @@ const Navbar = () => {
     ]
 
   return (
-    <nav className="fixed left-1/2 -translate-x-1/2 glass-card flex py-3 px-6
-        shadow-lg w-[90%] rounded-2xl bg-purple-900 items-center justify-between
-        text-white font-Saira z-50 top-4">
-    
+    <nav className="fixed left-1/2 -translate-x-1/2 flex py-3 glass-card
+        shadow-lg hover:shadow-[0_0_20px_#6b21a8] transition w-[90%] rounded-2xl 
+        bg-blue-900/60 items-center justify-between border border-white/10
+        text-white font-Saira z-50 top-4 backdrop-blur-sm">
+
         {/* Logo */}
-        <h1 className="text-lg text-purple-400 font-bold px-6">
+        <h1 className="text-lg font-bold px-6">
             Zaelly Barbosa Dev
         </h1>
 
@@ -55,7 +56,7 @@ const Navbar = () => {
 
         {/* Menu mobile */}
         {visible && (
-            <ul className="flex flex-col w-full h-screen fixed top-0 left-0 bg-purple-950 p-8 gap-6 sm:hidden text-white font-semibold z-50">
+            <ul className="flex flex-col w-full h-screen fixed top-0 left-0 bg-blue-950 p-8 gap-6 sm:hidden text-white font-semibold z-50">
                 {menuItems.map((item)=>(
                     <li key={item.label} className="cursor-pointer text-lg hover:text-primary">
                         <a className="block" href={item.href}>

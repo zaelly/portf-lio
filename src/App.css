@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Saira:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
 
 .app {
-  background: radial-gradient(circle at center,rgb(53, 0, 78), #200035, #0a0011);
+  background: radial-gradient(circle at center,rgb(0, 0, 0), #090029);
   background-color: black;
   background-size: 300% 300%;
   background-position: 0% 50%;
@@ -39,3 +39,19 @@ html {
   75%  { background-position: 50% 0%; }
   100% { background-position: 0% 50%; }
 }
+
+.cursor {
+  display: inline-block;
+  margin-left: 4px;
+  width: 2px;
+  height: 1em;
+  background-color: #c084fc; /* roxo */
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}
+
+.text{background-color: rgb(0, 140, 255)}

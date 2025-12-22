@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <footer id="contato" className="w-full mt-20 bg-white/10 p-8 rounded-2xl border border-white/10 shadow-lg backdrop-blur-sm hover:shadow-purple-700/40 transition">
-      <div className="glass-card p-8 text-center hover:-translate-y-1 transition transform">
-        <h2 className="text-3xl font-bold mb-6">
-          Entre em <span className="text-accent">Contato</span>
+    <footer id="contato" className="text-shadow w-full mt-20 bg-blue-500/15 p-8 rounded-2xl border border-white/10 shadow-lg backdrop-blur-sm hover:shadow-blue-700/40 transition">
+      <div className="glass-card text-center hover:-translate-y-1 transition transform">
+        <h2 className="text-3xl text-white font-Saira text-center font-bold mb-5">
+          Entre em <span className="text-blue-400">Contato</span>
         </h2>
         
         <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
@@ -16,7 +16,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/zaellybarbosa"
             target="_blank"
             rel="noopener noreferrer"
-            className="icon-container"
+            className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400"
             aria-label="LinkedIn"
           >
             <i className="fa-brands fa-linkedin-in text-xl" />
@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://github.com/zaelly"
             target="_blank"
             rel="noopener noreferrer"
-            className="icon-container"
+            className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400"
             aria-label="GitHub"
           >
             <i className="fa-brands fa-github text-xl" />
@@ -34,7 +34,7 @@ const Footer = () => {
 
           <a
             href="mailto:zaelly@example.com"
-            className="icon-container"
+            className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400"
             aria-label="Email"
           >
             <i className="fa-solid fa-envelope text-xl" />
