@@ -1,4 +1,6 @@
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer id="contato" className="text-shadow w-full mt-20 bg-blue-500/15 p-8 rounded-2xl border border-white/10 shadow-lg backdrop-blur-sm hover:shadow-blue-700/40 transition">
       <div className="glass-card text-center hover:-translate-y-1 transition transform">
@@ -43,7 +45,7 @@ const Footer = () => {
 
         <div className="border-t border-muted-foreground/30 pt-6">
           <p className="text-sm text-muted-foreground">
-            © 2025 Zaelly Barbosa. Desenvolvido com React & Tailwind CSS
+            Zaelly Barbosa. Desenvolvido com React & Tailwind CSS © {year}
           </p>
         </div>
       </div>
