@@ -14,14 +14,23 @@ const WebProjects = () => {
       tech: ["React", "Tailwind CSS", "Facebook Pixel API", "PHP", "Toast UI", "Vite"],
       linkGit: null
     },
+    // {
+    //   id: "2",
+    //   titulo:"Forever Drama - Em Andamento",
+    //   textDescription: "Hub de entretenimento para fãs de dramas asiáticos, focado na facilidade de descoberta de conteúdo. Uma interface moderna que conecta consumidores através do compartilhamento de mídia, otimizando a busca por títulos estrangeiros favoritos.",
+    //   href: "https://forever-drama.vercel.app",
+    //   img: "https://image.thum.io/get/https://forever-drama.vercel.app",
+    //   tech: ["React", "Tailwind CSS", "Multer JS", "Node.js", "Express.js", "MongoDB", "Middleware", "bcryptjs", "Validator", "JWT", "Mongoose", "dotenv", "Toast UI", "Vite", "API RestFull"],
+    //   linkGit: "https://github.com/zaelly/forever_drama"
+    // },
     {
-      id: "2",
-      titulo:"Forever Drama",
-      textDescription: "Hub de entretenimento para fãs de dramas asiáticos, focado na facilidade de descoberta de conteúdo. Uma interface moderna que conecta consumidores através do compartilhamento de mídia, otimizando a busca por títulos estrangeiros favoritos.",
-      href: "https://forever-drama.vercel.app",
-      img: "https://image.thum.io/get/https://forever-drama.vercel.app",
-      tech: ["React", "Tailwind CSS", "Multer JS", "Node.js", "Express.js", "MongoDB", "Middleware", "bcryptjs", "Validator", "JWT", "Mongoose", "dotenv", "Toast UI", "Vite"],
-      linkGit: "https://github.com/zaelly/forever_drama"
+      id: "3",
+      titulo:"Reverto Brechó - Em Andamento",
+      textDescription: "O Reverto Brechó é um site em desenvolvimento para brechós sustentaveis criado com o intuito de aprendizagem. Ele oferece uma plataforma onde os usuários podem comprar e vender roupas de segunda mão, promovendo a moda sustentável. Com funcionalidades como cadastro de usuários, cadastro e listagem de produtos, carrinho de compras e sistema de pagamento integrado, o site visa facilitar a troca de roupas usadas, incentivando a reutilização e reduzindo o desperdício no setor da moda.",
+      href: "https://brechoclient.vercel.app",
+      img: "https://image.thum.io/get/https://brechoclient.vercel.app",
+      tech: ["React", "CSS", "Multer JS", "Node.js", "Express.js", "MongoDB", "Middleware", "bcryptjs", "cors", "JWT", "Mongoose", "dotenv", "Toast UI", "Vite", "API RestFull"],
+      linkGit: "https://github.com/zaelly/brecho"
     },
   ] 
 
@@ -40,7 +49,7 @@ const WebProjects = () => {
         <div className="flex flex-wrap gap-6 justify-center">
           {description_projects.map((project)=>(
             <div onMouseEnter={()=> handleVisible(project)} key={project.id} className="cursor-pointer relative 
-              h-[200px] group items-center justify-center w-[340px] bg-blue-500/40
+              h-[200px] group items-center justify-center w-[300px] bg-blue-500/40
               hover:-translate-y-1 shadow-lg backdrop-blur-sm hover:shadow-blue-700/40 transform 
               rounded-2xl border border-white/10 transition overflow-hidden">
               {/* adicionar imagem do projeto */}
@@ -49,9 +58,9 @@ const WebProjects = () => {
 
               <div className="absolute inset-0 flex items-center justify-center opacity-0 
                     group-hover:opacity-900 transition duration-300">
-                <div className="text-white text-lg font-bold px-4 py-2 rounded-lg transition text-center flex flex-col gap-3">
+                <div className="text-white text-lg font-bold px-4 py-2 rounded-lg transition text-center justify-center items-center flex flex-col gap-3">
                   <p>{project.titulo}</p>
-                  <a href={project.href} className="text-sm rounded-full bg-purple-950 border py-2 px-4 border-none text-white">Ver projeto</a>
+                  <a href={project.href} rel="noreferrer" target="_blank" className="w-42 text-sm rounded-full bg-purple-950 border py-2 px-4 border-none text-white">Ver projeto</a>
                 </div>
               </div>
             </div>
