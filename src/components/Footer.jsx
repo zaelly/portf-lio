@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({setOpen}) => {
   const year = new Date().getFullYear();
 
   return (
@@ -35,9 +35,9 @@ const Footer = () => {
           </a>
 
           <a
-            href="mailto:zaelly@example.com"
             className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400"
             aria-label="Email"
+            setOpen={setOpen}
           >
             <i className="fa-solid fa-envelope text-xl" />
           </a>

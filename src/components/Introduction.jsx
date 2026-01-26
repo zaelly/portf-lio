@@ -1,5 +1,5 @@
 import { useTypewriter } from "../hooks/UseTypewriter.jsx";
-import perfil from "../assets/perfil.jpg";
+import perfil from "../assets/perfil.jpeg";
 
 const Introduction = ({setOpen}) => {
     const text = useTypewriter({
