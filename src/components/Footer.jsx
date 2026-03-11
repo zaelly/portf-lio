@@ -34,13 +34,13 @@ const Footer = ({setOpen}) => {
             <i className="fa-brands fa-github text-xl" />
           </a>
 
-          <a
-            className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400"
+          <button
+            className="icon-container flex p-3 w-[45px] h-[45px] rounded-full items-center justify-center border border-blue-400 cursor-pointer"
             aria-label="Email"
-            setOpen={setOpen}
+            onClick={() => setOpen(true)}
           >
             <i className="fa-solid fa-envelope text-xl" />
-          </a>
+          </button>
         </div>
 
         <div className="border-t border-muted-foreground/30 pt-6">

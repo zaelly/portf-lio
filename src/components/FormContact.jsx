@@ -8,7 +8,7 @@ const FormContact = ({open, setOpen}) => {
           <div className="relative bg-linear-to-t to-blue-950 from-black to-90% p-8 rounded-lg shadow-lg w-full max-w-md"> 
             <h2 className="text-2xl text-white font-bold mb-4">Entre em Contato</h2>
 
-            <button className="absolute top-4 right-4 font-bold text-white pointer text-2xl" onClick={()=> setOpen(false)}><i class="fa-brands fa-xing"></i></button>
+            <button className="absolute top-4 right-4 font-bold text-white pointer text-2xl" onClick={()=> setOpen(false)}><i className="fa-solid fa-xmark"></i></button>
             <form>
               <div className="mb-4">
                 <label htmlFor="name" className="block text-white">Nome</label>
