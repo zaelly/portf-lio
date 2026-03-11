@@ -2,26 +2,26 @@ import React from 'react'
 
 const Skills = () => {
     const techStacks = {
-        frontend: [
-          { name: "CSS", icon: "fa-brands fa-css3-alt" },
-          { name: "Bootstrap", icon: "fa-brands fa-bootstrap" },
-          { name: "JavaScript", icon: "fa-brands fa-js" },
-          { name: "React", icon: "fa-brands fa-react" },
-          { name: "Tailwind", icon: "fa-brands fa-tailwind" },
-        ],
-        backend: [
+      frontend: [
+        { name: "CSS", icon: "fa-brands fa-css3-alt" },
+        { name: "Bootstrap", icon: "fa-brands fa-bootstrap" },
+        { name: "JavaScript", icon: "fa-brands fa-js" },
+        { name: "React", icon: "fa-brands fa-react" },
+        { name: "Tailwind", icon: "devicon-tailwindcss-plain" },
+      ],
+      backend: [
         { name: "PHP", icon: "fa-brands fa-php" },
         { name: "Laravel", icon: "fa-brands fa-laravel" },
         { name: "Node.js", icon: "fa-brands fa-node-js" },
       ],
-        database: [
-        { name: "MySQL", icon: "fa-solid fa-database" },
-        { name: "MongoDB", icon: "fa-brands fa-mongodb" }
-        ],
-        tools: [
+      database: [
+        { name: "MySQL", icon: "devicon-mysql-plain" },
+        { name: "MongoDB", icon: "devicon-mongodb-plain" }
+      ],
+      tools: [
         { name: "Git", icon: "fa-brands fa-git-alt" },
-        { name: "VS Code", icon: "fa-solid fa-code" },
-        ],
+        { name: "VS Code", icon: "devicon-vscode-plain" },
+      ],
     }  
 
   return (
@@ -48,11 +48,11 @@ const Skills = () => {
          {/* Back-end Card */}
           <div className="bg-blue-400/10 backdrop-blur-sm p-8 rounded-2xl border border-white/10 shadow-lg hover:shadow-blue-700/40 hover:-translate-y-1 transition transform">
             <p className="text-2xl font-bold text-accent mb-6 text-center">Back-end</p>
-            <div className="flex justify-center">
+            <div className="grid grid-cols-3 gap-6 justify-items-center">
               {techStacks.backend.map((tech) => (
                 <i
                   key={tech.name}
-                  className={`${tech.icon} text-8xl hover:scale-110 transition-transform text-accent`}
+                  className={`${tech.icon} text-6xl hover:scale-110 transition-transform text-accent`}
                 />
               ))}
             </div>
