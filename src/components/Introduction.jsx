@@ -20,7 +20,7 @@ const Introduction = ({setOpen}) => {
             className="flex w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[400px] rounded-full overflow-hidden items-center justify-center"
             style={{ boxShadow: "0 0 20px 4px rgba(0, 140, 255, 1)" }}
         >
-            <img src={perfil} alt="foto de perfil" className="object-cover w-full h-full" />
+            <img src={perfil} alt="foto de perfil" className="object-cover w-full h-full object-[50%_20%]" />
         </div>
 
         {/* Texto */}

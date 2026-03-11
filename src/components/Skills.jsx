@@ -1,21 +1,22 @@
 import React from 'react'
 
 const Skills = () => {
-    const techStacks ={ 
+    const techStacks = {
         frontend: [
-        { name: "CSS", icon: "fa-brands fa-css3-alt" },
-        { name: "Bootstrap", icon: "fa-brands fa-bootstrap" },
-        { name: "JavaScript", icon: "fa-brands fa-js" },
-        { name: "PHP", icon: "fa-brands fa-php" },
-        { name: "React", icon: "fa-brands fa-react" },
-        { name: "Tailwind", icon: "fa-brands fa-tailwind" },
+          { name: "CSS", icon: "fa-brands fa-css3-alt" },
+          { name: "Bootstrap", icon: "fa-brands fa-bootstrap" },
+          { name: "JavaScript", icon: "fa-brands fa-js" },
+          { name: "React", icon: "fa-brands fa-react" },
+          { name: "Tailwind", icon: "fa-brands fa-tailwind" },
         ],
         backend: [
+        { name: "PHP", icon: "fa-brands fa-php" },
+        { name: "Laravel", icon: "fa-brands fa-laravel" },
         { name: "Node.js", icon: "fa-brands fa-node-js" },
-        ],
+      ],
         database: [
         { name: "MySQL", icon: "fa-solid fa-database" },
-        { name: "MongoDB", icon: "fa-brands fa-mongodb" },
+        { name: "MongoDB", icon: "fa-brands fa-mongodb" }
         ],
         tools: [
         { name: "Git", icon: "fa-brands fa-git-alt" },
